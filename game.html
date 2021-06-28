@@ -19,9 +19,39 @@
 		ctx.fillText('Javascript Game', 50, 50);
 
 		// formas
-
 		// ctx.fillRect(posicion-eje-x, posicion-eje-y, ancho, alto, )
-		ctx.fillRect(10, 10, 60, 60)
+		// ctx.fillRect(10, 10, 60, 60)
+
+		// var startPos = 100;
+		// var channel1 = 0;
+		// var channel2 = 100;
+		// var channel3 = 200;
+
+		// ctx.fillText('J1', startPos + channel1, 100);
+		// ctx.fillText('J2', startPos + channel2, 100);
+		// ctx.fillText('J3', startPos + channel3, 100);
+
+
+		let x = 100;
+		let spdX = 50;
+		
+		let y = 100;
+		let spdY = 50;
+
+		ctx.fillText('J1', x, y);
+
+		x += spdX;
+		y += spdY;
+		ctx.fillText('J2', x, y);
+
+		x += spdX;
+		y += spdY;
+		ctx.fillText('J3', x, y);
+
+		x += spdX;
+		y += spdY;
+		ctx.fillText('J4', x, y);
+
 
 	</script>
 </canvas>
