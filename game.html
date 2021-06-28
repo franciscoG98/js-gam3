@@ -1,0 +1,27 @@
+<canvas
+	id="canvas"
+	width="500"
+	height="500"
+	style="border: 1px solid #999"
+	>
+
+	<script>
+		// alert('juego iniciado')
+		let canvas = document.getElementById('canvas');
+
+		// contexto
+		let ctx = canvas.getContext('2d');
+
+		// definir fuente
+		ctx.font = "30px Arial"
+
+		// ctx.fillText('texto', posicion-eje-x, posicion-eje-y);
+		ctx.fillText('Javascript Game', 50, 50);
+
+		// formas
+
+		// ctx.fillRect(posicion-eje-x, posicion-eje-y, ancho, alto, )
+		ctx.fillRect(10, 10, 60, 60)
+
+	</script>
+</canvas>
